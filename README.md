@@ -3,7 +3,7 @@
 # Usage
 
 ```
-{% markdown_filter %}
+{% load markdown_filter %}
 {{ model|markdown_filter|safe }}
 ```
 
