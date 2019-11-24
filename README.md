@@ -26,7 +26,7 @@ INSTALLED_APPS = [
 
 Add whitelist HTML tags to your projects settings.py file:
 ```
-MARKDOWNIFY_WHITELIST_TAGS = [
+MARKDOWN_FILTER_WHITELIST_TAGS = [
     'a',
     'p',
     'code',
